@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/training/Downloads/set-3/Account/Account.cpp
+iostream
+-
+Account.h
+/home/training/Downloads/set-3/Account/Account.h
+CreditAccount.h
+/home/training/Downloads/set-3/Account/CreditAccount.h
+SavingsAccount.h
+/home/training/Downloads/set-3/Account/SavingsAccount.h
+
+/home/training/Downloads/set-3/Account/Account.h
+string
+-
+
+/home/training/Downloads/set-3/Account/AccountTest.cpp
+gtest/gtest.h
+-
+Account.cpp
+/home/training/Downloads/set-3/Account/Account.cpp
+CreditAccount.h
+/home/training/Downloads/set-3/Account/CreditAccount.h
+SavingsAccount.h
+/home/training/Downloads/set-3/Account/SavingsAccount.h
+
+/home/training/Downloads/set-3/Account/CreditAccount.h
+string
+-
+Account.h
+/home/training/Downloads/set-3/Account/Account.h
+
+/home/training/Downloads/set-3/Account/SavingsAccount.h
+string
+-
+Account.h
+/home/training/Downloads/set-3/Account/Account.h
+
